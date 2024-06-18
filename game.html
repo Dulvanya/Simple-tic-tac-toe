@@ -91,6 +91,22 @@
             [0, 4, 8],
             [2, 4, 6]
         ];
+        function handleMove(index) {
+            if (!isGameActive || cells[index].textContent !== '') return;
+
+            cells[index].textContent = currentPlayer;
+            moves++;
+
+            if (checkWin(currentPlayer)) {
+                message.textContent = `${currentPlayer} wins!`;
+                isGameActive = false;
+            } else if (moves === 9) {
+                message.textContent = 'It\'s a draw!';
+                isGameActive = false;
+            } else {
+                currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+            }
+        }
 </script>
   
  </body>
