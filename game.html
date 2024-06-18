@@ -114,6 +114,15 @@
                 });
             });
         }
+ function resetGame() {
+            cells.forEach(cell => {
+                cell.textContent = '';
+            });
+            message.textContent = '';
+            currentPlayer = 'X';
+            isGameActive = true;
+            moves = 0;
+        }
 </script>
   
  </body>
