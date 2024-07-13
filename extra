@@ -26,6 +26,7 @@ styles.css
 
 
 
+
    body {
     font-family: Arial, sans-serif;
     background-color: rgb(155, 120, 120);
@@ -87,3 +88,8 @@ styles.css
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+
+
+
+script.js
