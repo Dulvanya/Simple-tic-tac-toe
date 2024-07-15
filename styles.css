@@ -31,6 +31,6 @@ body {
     cursor: pointer;
 }
 
-.cell:hover{
+.cell:hover {
     background-color: #ccc;
 }
