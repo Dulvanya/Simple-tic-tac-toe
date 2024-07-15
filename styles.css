@@ -20,13 +20,13 @@ body {
     margin-bottom: 20px;
 }
 
-.cell{
+.cell {
     width: 100px;
-height: 100px;
-background-color: #ddd;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 24px;
-cursor: pointer;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
 }
