@@ -15,21 +15,6 @@ styles.css
 
 
 
-.cell {
-width: 100px;
-height: 100px;
-background-color: #ddd;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 24px;
-cursor: pointer;
-}
-
-.cell:hover {
-background-color: #ccc;
-}
-
 #resetBtn {
 background-color: #4CAF50;
 color: white;
