@@ -53,9 +53,11 @@ body {
     margin-bottom: 20px;
 }
 
-#playerInput input{
+
+#playerInput input {
     padding: 5px;
-margin: 5px;
-border-radius: 5px;
-border: 1px solid #ccc;
-}
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    }
+    
