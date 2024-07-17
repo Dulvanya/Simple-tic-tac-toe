@@ -24,7 +24,7 @@ script.js
 
 
 
-const message = document.getElementById('message');
+
 let currentPlayer = 'X';
 let isGameActive = true;
 let moves = 0;
