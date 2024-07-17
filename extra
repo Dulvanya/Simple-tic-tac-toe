@@ -23,7 +23,7 @@ script.js
 
 
 
-const cells = document.querySelectorAll('.cell');
+
 const message = document.getElementById('message');
 let currentPlayer = 'X';
 let isGameActive = true;
