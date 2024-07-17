@@ -15,21 +15,6 @@ styles.css
 
 
 
-#resetBtn:hover {
-background-color: #45a049;
-}
-
-#playerInput {
-margin-bottom: 20px;
-}
-
-#playerInput input {
-padding: 5px;
-margin: 5px;
-border-radius: 5px;
-border: 1px solid #ccc;
-}
-
 
 
 
