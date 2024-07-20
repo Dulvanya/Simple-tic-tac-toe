@@ -34,10 +34,10 @@ function handleMove(index) {
     if (checkWin(currentPlayer)) {
         message.textContent = `${currentPlayer === 'X' ? player1 : player2} wins!`;
         isGameActive = false;
-        } else if (moves === 9) {
+    } else if (moves === 9) {
         message.textContent = 'It\'s a draw!';
         isGameActive = false;
-        } else {
+    } else {
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-        }
-        }
+    }
+}
