@@ -44,8 +44,8 @@ function handleMove(index) {
 
 function checkWin(player) {
     return winningCombos.some(combination => {
-    return combination.every(index => {
-    return cells[index].textContent === player;
+        return combination.every(index => {
+            return cells[index].textContent === player;
+        });
     });
-    });
-    }
+}
