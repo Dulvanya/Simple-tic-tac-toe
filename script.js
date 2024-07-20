@@ -41,3 +41,11 @@ function handleMove(index) {
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
     }
 }
+
+function checkWin(player) {
+    return winningCombos.some(combination => {
+    return combination.every(index => {
+    return cells[index].textContent === player;
+    });
+    });
+    }
