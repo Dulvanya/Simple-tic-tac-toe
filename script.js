@@ -5,4 +5,4 @@ const message = document.getElementById('message');
 let currentPlayer = 'x';
 let isGameActive = true;
 let moves = 0;
-let player1
+let player1 = ' ';
