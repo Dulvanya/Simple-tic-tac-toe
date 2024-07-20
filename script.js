@@ -52,9 +52,9 @@ function checkWin(player) {
 
 function resetGame() {
     cells.forEach(cell => {
-    cell.textContent = '';
+        cell.textContent = '';
     });
     message.textContent = '';
     isGameActive = true;
     moves = 0;
-    }
+}
