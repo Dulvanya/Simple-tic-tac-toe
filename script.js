@@ -24,3 +24,6 @@ function startGame() {
     currentPlayer = 'X';
     resetGame();
 }
+
+function handleMove(index) {
+    if (!isGameActive || cells[index].textContent !== '') return;
