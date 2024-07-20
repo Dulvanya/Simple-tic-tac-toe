@@ -23,4 +23,4 @@ function startGame() {
     player2 = document.getElementById('player2').value || 'Player 2';
     currentPlayer = 'X';
     resetGame();
-    }
+}
