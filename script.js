@@ -29,4 +29,4 @@ function handleMove(index) {
     if (!isGameActive || cells[index].textContent !== '') return;
 
     cells[index].textContent = currentPlayer;
-moves++;
+    moves++;
