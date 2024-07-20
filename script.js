@@ -18,9 +18,9 @@ const winningCombos = [
     [2, 4, 6],
 ];
 
-function startGame(){
+function startGame() {
     player1 = document.getElementById('player1').value || 'Player 1';
     player2 = document.getElementById('player2').value || 'Player 2';
     currentPlayer = 'X';
     resetGame();
-}
+    }
