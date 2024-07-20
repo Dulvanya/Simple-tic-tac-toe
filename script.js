@@ -19,5 +19,5 @@ const winningCombos = [
 ];
 
 function startGame(){
-    player1 = document.getElementById('player1').value || 'player 1';
+    player1 = document.getElementById('player1').value || 'Player 1';
 }
