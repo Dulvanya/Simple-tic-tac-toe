@@ -8,5 +8,8 @@ let moves = 0;
 let player1 = ' ';
 let player2 = ' ';
 const winningCombos = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
     
 ]
