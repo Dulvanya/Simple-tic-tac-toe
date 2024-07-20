@@ -7,3 +7,6 @@ let isGameActive = true;
 let moves = 0;
 let player1 = ' ';
 let player2 = ' ';
+const winningCombos = [
+    
+]
